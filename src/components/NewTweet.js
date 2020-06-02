@@ -6,7 +6,7 @@ import { Redirect } from "react-router-dom";
 const NewTweet = ({ dispatch, id }) => {
   const [state, setState] = useState({
     text: "",
-    toHomce: false,
+    toHome: false,
   });
   const { text, toHome } = state;
   const handleChange = (e) => {

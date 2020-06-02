@@ -11,7 +11,7 @@ import Nav from "./Nav";
 const App = ({ dispatch, loading }) => {
   useEffect(() => {
     dispatch(handleInitialData());
-  });
+  }, [loading]);
   return (
     <Router>
       <Fragment>
